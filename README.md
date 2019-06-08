@@ -1,5 +1,6 @@
 <!--
 https://pypi.org/project/readme-generator/
+https://pypi.org/project/python-readme-generator/
 -->
 
 [![](https://img.shields.io/pypi/pyversions/control-characters.svg?longCache=True)](https://pypi.org/project/control-characters/)
@@ -31,5 +32,5 @@ env = dict((k, control_characters.remove(v)) for k, v in os.environ.items())
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
 </p>
