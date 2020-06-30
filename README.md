@@ -1,13 +1,13 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/control-characters.svg?longCache=True)](https://pypi.org/project/control-characters/)
-[![](https://img.shields.io/pypi/v/control-characters.svg?maxAge=3600)](https://pypi.org/project/control-characters/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/control-characters.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/control-characters.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/control-characters.svg?maxAge=3600)](https://pypi.org/project/control-characters/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/control-characters.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/control-characters.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install control-characters
 ```
@@ -20,11 +20,6 @@ fixes `plistlib`  problem with control characters
 ValueError: strings can't contains control characters; use bytes instead
 ```
 
-#### Functions
-function|`__doc__`
--|-
-`control_characters.remove(string)` |return a string without control characters
-
 #### Examples
 environment variables without control characters:
 ```python
@@ -32,5 +27,5 @@ env = dict((k, control_characters.remove(v)) for k, v in os.environ.items())
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
